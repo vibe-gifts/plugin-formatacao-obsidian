@@ -1,0 +1,9 @@
+{
+  "id": "formatador-de-texto",
+  "name": "Formatador de Texto",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Botão Formatar ao colar texto e barra flutuante de formatação ao selecionar.",
+  "author": "Taian Carvalho",
+  "isDesktopOnly": true
+}

@@ -1,0 +1,47 @@
+.fdt-barra,
+.fdt-colar {
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-s);
+}
+
+.fdt-barra button,
+.fdt-colar button {
+  min-width: 28px;
+  height: 28px;
+  padding: 0 8px;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  cursor: pointer;
+}
+
+.fdt-barra button:hover,
+.fdt-colar button:hover {
+  background: var(--background-modifier-hover);
+}
+
+.fdt-barra .fdt-sep {
+  width: 1px;
+  height: 18px;
+  margin: 0 3px;
+  background: var(--background-modifier-border);
+}
+
+.fdt-colar .fdt-principal {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+.fdt-colar .fdt-principal:hover {
+  background: var(--interactive-accent-hover);
+}
